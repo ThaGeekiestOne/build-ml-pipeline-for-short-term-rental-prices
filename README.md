@@ -634,9 +634,9 @@ you have trained your new model on the new data.
 
 Replace these fields in your copy of this README with your own links and platform choice:
 
-- **W&B project:** `https://wandb.ai/<username-or-team>/nyc_airbnb`
-- **Source repository platform:** `GitHub` or `Azure Repos`
-- **Source repository:** your actual GitHub repository URL or Azure Repos URL
+- **W&B project:** https://wandb.ai/meayus/nyc_airbnb
+- **Source repository platform:** GitHub
+- **Source repository:** https://github.com/ThaGeekiestOne/build-ml-pipeline-for-short-term-rental-prices
 
 Submit the same information in **Submission Details**:
 
@@ -695,12 +695,7 @@ Confirm that conda is installed, that the development environment is active, and
 repository root. Then identify which step failed and inspect that step's own environment and logs. The starter's
 unimplemented TODO branches are still incomplete even when `mlflow run .` returns successfully.
 
-
-## License
-
-[License](LICENSE.txt)
-
 ## Project links (required for submission)
 
-- Public W&B project: `https://wandb.ai/<your-username>/nyc_airbnb`  <!-- TODO: replace -->
-- Repository (GitHub or Azure Repos): `<your-repository-url>`  <!-- TODO: replace -->
+- Public W&B project: https://wandb.ai/meayus/nyc_airbnb
+- Repository (GitHub): https://github.com/ThaGeekiestOne/build-ml-pipeline-for-short-term-rental-prices
