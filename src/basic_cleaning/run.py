@@ -39,10 +39,10 @@ def go(args):
     df["last_review"] = pd.to_datetime(df["last_review"])
 
     # Drop listings outside the NYC area (found necessary with sample2.csv)
-    # logger.info("Filtering listings outside the NYC geographical boundaries")
-    # idx = df["longitude"].between(-74.25, -73.50) & df["latitude"].between(40.5, 41.2)
-    # df = df[idx].copy()
-    # logger.info("%d rows remain after geographical filtering", len(df))
+    logger.info("Filtering listings outside the NYC geographical boundaries")
+    idx = df["longitude"].between(-74.25, -73.50) & df["latitude"].between(40.5, 41.2)
+    df = df[idx].copy()
+    logger.info("%d rows remain after geographical filtering", len(df))
 
     filename = "clean_sample.csv"
     df.to_csv(filename, index=False)
